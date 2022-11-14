@@ -1,27 +1,264 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML/CSS S6 Ejercicio1</title>
+    
+    <!--LOAD NORMALIZE-->
+    <link rel="stylesheet" href="css/normalize.css">
+    
     <!--LOAD CSS-->
     <link rel="stylesheet" href="css/style.css">
+
+    <!--LOAD FONTAWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
 </head>
 <body>
     <!--START HEADER-->
-    <header>
-
+    <header class="header">
+        <div class="header__container">
+            <a class="header__logo">
+                <img src="img/viajes.png" alt="logo" class="logo__img">
+            </a>
+            <!--START TOP-NAV-->
+            <nav class="top-nav">
+                <ul class="top-nav__ul">
+                    <li class="top-nav__li"><a href="#" class="top-nav__a">Item 1</a></li>|
+                    <li class="top-nav__li"><a href="#" class="top-nav__a">Item 2</a></li>|
+                    <li class="top-nav__li"><a href="#" class="top-nav__a">Item 3</a></li>|
+                    <li class="top-nav__li"><a href="#" class="top-nav__a top-nav__a--phone">Item 4</a></li>
+                </ul>
+            </nav>
+            <!--END TOP-NAV-->
+        </div>
     </header>
     <!--END HEADER-->
+    <!--START MAIN-NAV-->
+    <nav class="main-nav">
+        <div class="main-nav__container">
+            <ul class="main-nav__ul">
+                <li class="main-nav__li"><a href="#" class="main-nav__a">Item 1</a></li>
+                <li class="main-nav__li"><a href="#" class="main-nav__a">Item 2</a></li>
+                <li class="main-nav__li main-nav__li--active"><a href="#" class="main-nav__a main-nav__a--active">Item 3</a></li>
+                <li class="main-nav__li"><a href="#" class="main-nav__a">Item 4</a></li>
+                <li class="main-nav__li"><a href="#" class="main-nav__a">Item 5</a></li>
+                <li class="main-nav__li"><a href="#" class="main-nav__a">Item 6</a></li>
+                <li class="main-nav__li"><a href="#" class="main-nav__a">Item 7</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--END MAIN-NAV-->
     <!--START MAIN-->
-    <main>
+    <main class="main">
+        <div class="main__container">
+            <section class="main__section">
+                <div class="main__breadcrumb">
+                    <ul class="breadcrumb__ul">
+                        <li class="breadcrumb__li"><a href="#" class="breadcrumb__a--active">Item 1</a></li>
+                        <li class="breadcrumb__li">> Item 2</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="main__section">
+                <div class="main__filters">
+                    <button class="filters__btn">Item 1 <i class="fa-solid fa-angle-down"></i></button>
+                    <button class="filters__btn">Item 2 <i class="fa-solid fa-angle-down"></i></button>
+                    <button class="filters__btn">Item 3 <i class="fa-solid fa-angle-down"></i></button>
+                    <button class="filters__btn">Item 4 <i class="fa-solid fa-angle-down"></i></button>
+                    <button class="filters__btn">Item 5 <i class="fa-solid fa-angle-down"></i></button>
+                    <button class="filters__btn">Item 6 <i class="fa-solid fa-angle-down"></i></button>
+                </div>
+            </section>
+            <hr>
+            <section class="main__section">
+                <article class="main__article">
 
+                    <img src="img/berlin.jpg" alt="berlin" class="article__img">
+                    <div class="article__info">
+                        <h3 class="info__h3">Item 1</h3>
+                        <p class="info__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti perspiciatis sit cum quas? Eum repudiandae veritatis earum expedita aperiam iste iusto necessitatibus nisi quod eius, fuga deserunt pariatur impedit!</p>
+                        <div class="info__price">500€</div>
+                        <button class="info__btn">Más Información</button>
+                    </div>
+                </article>
+                <article class="main__article">
+                    <img src="img/berlin.jpg" alt="berlin" class="article__img">
+                    <div class="article__info">
+                        <h3 class="info__h3">Item 2</h3>
+                        <p class="info__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti perspiciatis sit cum quas? Eum repudiandae veritatis earum expedita aperiam iste iusto necessitatibus nisi quod eius, fuga deserunt pariatur impedit!</p>
+                        <div class="info__price">500€</div>
+                        <button class="info__btn">Más Información</button>
+                    </div>
+                </article>
+                <article class="main__article">
+                    <img src="img/berlin.jpg" alt="berlin" class="article__img">
+                    <div class="article__info">
+                        <h3 class="info__h3">Item 3</h3>
+                        <p class="info__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti perspiciatis sit cum quas? Eum repudiandae veritatis earum expedita aperiam iste iusto necessitatibus nisi quod eius, fuga deserunt pariatur impedit!</p>
+                        <div class="info__price">500€</div>
+                        <button class="info__btn">Más Información</button>
+                    </div>
+                </article>
+                <article class="main__article">
+                    <img src="img/berlin.jpg" alt="berlin" class="article__img">
+                    <div class="article__info">
+                        <h3 class="info__h3">Item 4</h3>
+                        <p class="info__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti perspiciatis sit cum quas? Eum repudiandae veritatis earum expedita aperiam iste iusto necessitatibus nisi quod eius, fuga deserunt pariatur impedit!</p>
+                        <div class="info__price">500€</div>
+                        <button class="info__btn">Más Información</button>
+                    </div>
+                </article>
+                <article class="main__article">
+                    <img src="img/berlin.jpg" alt="berlin" class="article__img">
+                    <div class="article__info">
+                        <h3 class="info__h3">Item 5</h3>
+                        <p class="info__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti perspiciatis sit cum quas? Eum repudiandae veritatis earum expedita aperiam iste iusto necessitatibus nisi quod eius, fuga deserunt pariatur impedit!</p>
+                        <div class="info__price">500€</div>
+                        <button class="info__btn">Más Información</button>
+                    </div>
+                </article>
+                <article class="main__article">
+                    <img src="img/berlin.jpg" alt="berlin" class="article__img">
+                    <div class="article__info">
+                        <h3 class="info__h3">Item 6</h3>
+                        <p class="info__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti perspiciatis sit cum quas? Eum repudiandae veritatis earum expedita aperiam iste iusto necessitatibus nisi quod eius, fuga deserunt pariatur impedit!</p>
+                        <div class="info__price">500€</div>
+                        <button class="info__btn">Más Información</button>
+                    </div>
+                </article>
+                <article class="main__article">
+                    <img src="img/berlin.jpg" alt="berlin" class="article__img">
+                    <div class="article__info">
+                        <h3 class="info__h3">Item 7</h3>
+                        <p class="info__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti perspiciatis sit cum quas? Eum repudiandae veritatis earum expedita aperiam iste iusto necessitatibus nisi quod eius, fuga deserunt pariatur impedit!</p>
+                        <div class="info__price">500€</div>
+                        <button class="info__btn">Más Información</button>
+                    </div>
+                </article>
+                <article class="main__article">
+                    <img src="img/berlin.jpg" alt="berlin" class="article__img">
+                    <div class="article__info">
+                        <h3 class="info__h3">Item 8</h3>
+                        <p class="info__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti perspiciatis sit cum quas? Eum repudiandae veritatis earum expedita aperiam iste iusto necessitatibus nisi quod eius, fuga deserunt pariatur impedit!</p>
+                        <div class="info__price">500€</div>
+                        <button class="info__btn">Más Información</button>
+                    </div>
+                </article>
+            </section>
+            <section class="main__section">
+                <div class="main__card">
+                    <h4 class="card__h4">Oferta de viajes</h4>
+                    <p class="card__p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porttitor diam pretium lorem faucibus, sit amet ornare libero venenatis. Curabitur sollicitudin ipsum ut auctor dignissim. Maecenas mauris urna, fermentum eu nunc ut, varius semper ante. Ut eget fringilla erat. Ut elementum lorem massa, ac dictum nisi hendrerit et. Nunc ut velit cursus, pellentesque ligula eget, accumsan nisl. Vivamus auctor massa sit amet erat faucibus, sed blandit augue dapibus. Nullam in pellentesque urna. Maecenas vehicula fermentum neque sit amet malesuada.
+                    </p>
+                </div>
+            </section>
+            <section class="main__section">
+                <div class="main__icons-block">
+                    <div class="icons-block__icon">
+                        <i class="fa-solid fa-leaf icon__img"></i>
+                        <p class="icon__p">Item 1</p>
+                    </div>
+                    <div class="icons-block__icon">
+                        <i class="fa-solid fa-leaf icon__img"></i>
+                        <p class="icon__p">Item 2</p>
+                    </div>
+                    <div class="icons-block__icon">
+                        <i class="fa-solid fa-leaf icon__img"></i>
+                        <p class="icon__p">Item 3</p>
+                    </div>
+                    <div class="icons-block__icon">
+                        <i class="fa-solid fa-leaf icon__img"></i>
+                        <p class="icon__p">Item 4</p>
+                    </div>
+                    <div class="icons-block__icon">
+                        <i class="fa-solid fa-leaf icon__img"></i>
+                        <p class="icon__p">Item 5</p>
+                    </div>
+                    <div class="icons-block__icon">
+                        <i class="fa-solid fa-leaf icon__img"></i>
+                        <p class="icon__p">Item 6</p>
+                    </div>
+                    <div class="icons-block__icon">
+                        <i class="fa-solid fa-leaf icon__img"></i>
+                        <p class="icon__p">Item 7</p>
+                    </div>
+                    <div class="icons-block__icon icons-block__icon--no-border-right">
+                        <i class="fa-solid fa-leaf icon__img"></i>
+                        <p class="icon__p">Item 8</p>
+                    </div>
+                </div>
+            </section>
+            <section class="main__section">
+                <div class="main__thumbnails-block">
+                    <div class="thumbnails-block__thumbnail">
+                        <img class="thumbnail__img" src="img/bucarest.jpg" alt="Bucarest">
+                    </div>
+                    <div class="thumbnails-block__thumbnail">
+                        <img class="thumbnail__img" src="img/bucarest.jpg" alt="Bucarest">
+                    </div>
+                    <div class="thumbnails-block__thumbnail">
+                        <img class="thumbnail__img" src="img/bucarest.jpg" alt="Bucarest">
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <!--END MAIN-->
     <!--START FOOTER-->
-    <footer>
-
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__menu">
+                <h4 class="footer__h4">Menu 1</h4>
+                <ul class="footer__ul">
+                    <li class="footer__li"><a href="#" class="footer__a">Item 1</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 2</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 3</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 4</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 5</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 6</a></li>
+                </ul>
+            </div>
+            <div class="footer__menu">
+                <h4 class="footer__h4">Menu 2</h4>
+                <ul class="footer__ul">
+                    <li class="footer__li"><a href="#" class="footer__a">Item 1</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 2</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 3</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 4</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 5</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 6</a></li>
+                </ul>
+            </div>
+            <div class="footer__menu">
+                <h4 class="footer__h4">Menu 3</h4>
+                <ul class="footer__ul">
+                    <li class="footer__li"><a href="#" class="footer__a">Item 1</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 2</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 3</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 4</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 5</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 6</a></li>
+                </ul>
+            </div>
+            <div class="footer__menu">
+                <h4 class="footer__h4">Menu 4</h4>
+                <ul class="footer__ul">
+                    <li class="footer__li"><a href="#" class="footer__a">Item 1</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 2</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 3</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 4</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 5</a></li>
+                    <li class="footer__li"><a href="#" class="footer__a">Item 6</a></li>
+                </ul>
+            </div>
+            <a class="footer__logo">
+                <img src="img/viajes.png" alt="logo" class="logo__img">
+            </a>
+            <div class="footer__copyright">Copyright © 2022 All Rights Reserved</div>
+        </div>
     </footer>
     <!--END FOOTER-->
 </body>

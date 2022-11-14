@@ -1,0 +1,250 @@
+
+a {
+    text-decoration: none;
+    color: #777;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header__container {
+    margin: 0 auto;
+    width: 1080px;
+    padding: 2em 0;
+}
+
+.header, main {
+    background-color: whitesmoke;
+}
+
+.header__logo {
+    display: inline-block;
+    width: 250px;  
+}
+
+.top-nav {
+    display: inline-block;
+    float: right;
+}
+
+.top-nav__li {
+    display: inline-block;
+    margin: 0 2em;
+}
+
+.top-nav__a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.top-nav__a--phone {
+   text-transform: uppercase;
+   font-size: 1.2em;
+}
+
+.main-nav {
+    background-color: white;
+}
+
+.main-nav__container {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.main-nav__li {
+    display: inline-block;
+    margin: 0 2em;
+    padding: 1.5em 0;
+}
+
+.main-nav__li--active, .main-nav__li:hover {
+    border-bottom: 4px solid green;
+}
+
+.main-nav__a--active {
+    font-weight: bold;
+    color: green;
+}
+
+.main-nav__a {
+    text-transform: uppercase;
+}
+
+.main-nav__a:hover {
+    color: green;
+}
+
+.main__container {
+    margin: 0 auto;
+    width: 1080px;
+    padding: 1em 0;
+}
+
+.main__section {
+    padding: 1em 0; 
+}
+
+.breadcrumb__li {
+    display: inline-block;
+}
+
+.breadcrumb__a--active {
+    color: green;
+}
+
+.filters__btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    margin-right: 1em;
+    padding: 1em 2em;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.filters__btn:hover {
+    background-color: green;
+}
+
+.main__article {
+    display: inline-block;
+    width: 49%;
+    background-color: white;
+    margin: 0px 17px 25px 0;
+}
+
+.main__article:nth-child(2n) {
+    margin-right: 0;
+}
+
+.article__img:hover {
+    filter: grayscale(100%);
+}
+
+.article__info {
+    padding: 1em 1.75em;
+}
+
+.info__h3 {
+    font-size: 1.5em;
+}
+
+.info__p {
+    margin-bottom: 3em;
+}
+
+.info__price {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+    color: green;
+}
+
+.info__btn {
+    float: right;
+    background-color: transparent;
+    border: 1px solid green;
+    color: green;
+    margin-bottom: 1em;
+    padding: 1em 2em;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.info__btn:hover {
+    color: black;
+}
+
+.main__card {
+    background-color: white;
+    padding: 1em 1.75em;
+}
+
+.card__h4 {
+    font-size: 1.25em;
+}
+
+.main__icons-block {
+    padding: 2em 0
+}
+
+.icons-block__icon {
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    border-right: 1px solid grey;
+}
+
+.icons-block__icon--no-border-right {
+    border: none;
+}
+
+.icon__img {
+    font-size: 5em;
+}
+
+.thumbnails-block__thumbnail {
+    display: inline-block;
+    width: 31%;
+    margin-right: 33px;
+}
+
+.thumbnails-block__thumbnail:hover {
+    filter: grayscale(100%);
+}
+
+.thumbnails-block__thumbnail:last-child {
+    margin-right: 0;
+}
+
+.thumbnail__img {
+    max-width: 100%;
+}
+
+.footer__container {
+    margin: 0 auto;
+    width: 1080px;
+    padding: 2em 0;
+}
+
+.footer__menu {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.footer__h4 {
+    color: green;
+}
+
+.footer__a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.footer__logo {
+    display: inline-block;
+    width: 250px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
